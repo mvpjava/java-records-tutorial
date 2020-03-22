@@ -17,11 +17,12 @@ The environment is reproducible by simply executing "run.sh"
 after git cloning this repository.
 
 
+
 =========================================
 Running a .jsh script example from JShell
 =========================================
 
-jshell> /open /root/recordsDemo.jsh
+jshell> /open /root/demo.jsh
 
 
 ========================================================
