@@ -17,29 +17,23 @@ The environment is reproducible by simply executing "run.sh"
 after git cloning this repository.
 
 
-
-=========================================
-Running a .jsh script example from JShell
-=========================================
+Running a .jsh script example from JShell ...
 
 jshell> /open /root/demo.jsh
 
 
-========================================================
-When you want to list the code snippets in jshell script
-========================================================
+When you want to list the code snippets in jshell script ...
+
 jshell> /list
 
 
-====================================
-Executing individual JShell snippets
-====================================
+Executing individual JShell snippets ...
+
 jshell>  /list 1
 
 
-========================================
-Exiting JShell and thus Docker Conatiner
-========================================
+Exiting JShell and thus Docker Conatiner ...
+
 jshell> /exit
 
 ======================================================
