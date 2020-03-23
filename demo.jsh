@@ -1,57 +1,19 @@
 System.out.println("MVP Java - JDK 14 Records Demo")
 
-//record Location (float latitude, float longitude){}
+record Location (float latitude, float longitude){}
 
-record Location (float latitude, float longitude){
-
-    public Location // canonical constructor (don't put empty parenthesis!
-    {
-        if(latitude < -90 || latitude > 90){
-            throw new IllegalArgumentException("Invalid latititude " + latitude);
-        }
-        // add longitude validation too ...
-        // what is missing here? ... assignment!
-    }
-    
-    public String toString()
-    {
-      return "lat =" + latitude + " long = " + longitude;
-    }
-    
-    //can override hashCode .. etc ..
-    
-    public float getLatitude(){ // Can now use getLatitiude method .. at this point, just use a Class instead!
-        return latitude;
-    }
-    
-    //static factory
-    public static Location of()
-    {
-        return new Location(45F, 45F);
-    }
-
-}
-
-
-
-Location santaMaria  = new Location (36.947613F, -25.146546F);
+Location santaMaria     = new Location (36.947613F, -25.146546F);
 Location santaMariaCopy = new Location (36.947613F, -25.146546F);
-Location india = new Location (28.6139F, 77.2090F);
+Location india          = new Location (28.6139F  ,  77.2090F  );
 
-System.out.println ("india.toString()  = " + india);
+System.out.println ("india.toString()       = " + india);
 System.out.println ("santaMaria.toString()  = " + santaMaria);
 System.out.println ("santaMaria latititude  = " + santaMaria.latitude()); //not getLatitude() !!
 System.out.println ("santaMaria longitude   = " + santaMaria.longitude()); //not getLongitude() !!
 
 System.out.println ();
 
-System.out.println ("santaMaria.hashCode()     = " + santaMaria.hashCode());
-System.out.println ("santaMariaCopy.hashCode() = " + santaMariaCopy.hashCode());
+System.out.println ("santaMaria.hashCode()             = " + santaMaria.hashCode());
+System.out.println ("santaMariaCopy.hashCode()         = " + santaMariaCopy.hashCode());
 System.out.println ("santaMaria.equals(santaMariaCopy) = " + santaMaria.equals(santaMariaCopy)); 
-System.out.println ("santaMaria.equals(india)  = " + santaMaria.equals(india)); 
-
-
-//Static Factory
-Location defaultLocation = Location.of();
-System.out.println ("defaultLocation.toString()  = " + defaultLocation);
-
+System.out.println ("santaMaria.equals(india)          = " + santaMaria.equals(india)); 
