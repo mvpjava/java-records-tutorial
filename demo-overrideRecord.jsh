@@ -27,13 +27,12 @@ record Location (float latitude, float longitude){
     public float getLatitude (){ 
         return latitude;
     }
-    
+      
     public float getLongitude (){ 
         return longitude;
     }
     
-    //static factory
-    public static Location of()
+    public static Location origin()
     {
         return new Location(DEFAULT_LATITUDE, DEFAULT_LONGITUDE);
     }
@@ -50,7 +49,6 @@ System.out.println ("santaMaria longitude   = " + santaMaria.getLongitude());
 
 System.out.println ();
 
-//Static Factory
-Location defaultLocation = Location.of();
-System.out.println ("defaultLocation.toString()  = " + defaultLocation);
+Location originLocation = Location.origin();
+System.out.println ("originLocation.toString()  = " + originLocation);
 
