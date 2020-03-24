@@ -9,8 +9,7 @@ Java records are a preview feature available in Java 14 which natively reduces b
 This tutorial supports Blog post "Java Records : Boilerplate Exterminator"
 from mvpjava.com
 
-YouTube Tutorial:  https://youtu.be/xxxxxxxxxxxxxx
-Blog Post: http://mvpjava.com/xxxxxxxxxxxx
+Blog Post: http://mvpjava.com/java-records/
 
  
 This has all been setup for you to run within an official Docker container with access to all the JShell *.jsh script files for you to play around with. 
