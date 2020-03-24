@@ -1,11 +1,12 @@
 # java-records-tutorial
 Tutorial on Java 14’s data records (a preview feature)
+
 Java records are a preview feature available in Java 14 which natively reduces boilerplate code when dealing with Data Classes. Learn how we can actually model data as data-only aggregates and close the gap in Java’s type system
 
 # Java 14 Records - Preview Feature
 
 
-This tutorial supports Blog post "TBD - Preview Feature"
+This tutorial supports Blog post "Java Records : Boilerplate Exterminator"
 from mvpjava.com
 
 YouTube Tutorial:  https://youtu.be/xxxxxxxxxxxxxx
