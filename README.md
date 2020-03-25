@@ -10,6 +10,7 @@ This tutorial supports Blog post "Java Records : Boilerplate Exterminator"
 from mvpjava.com
 
 Blog Post: http://mvpjava.com/java-records/
+YouTube Tutorial: https://youtu.be/0yb80kTO2UQ
 
  
 This has all been setup for you to run within an official Docker container with access to all the JShell *.jsh script files for you to play around with. 
